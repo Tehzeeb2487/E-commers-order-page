@@ -1,0 +1,171 @@
+		body{overflow-x: hidden;}
+		form{border-radius: 5px;}
+		input{padding: 4px 179px 4px 19px;border: none;font-size: 14px}
+		.icon{font-size: 14px;padding: 3px 10px}
+		.text-dark{font-size: 12px}
+		.text-secondary{font-size: 14px;border-radius: 10px;padding: 8px 10px;cursor: pointer;}
+		.text-secondary:hover{background-color: #cef3ffab;
+			color: #00abff !important;
+			border-radius: 10px;
+			padding: 8px 10px;}
+		.icons{font-size: 20px;margin-right: 15px;border-radius: 10px;padding: 8px 10px;}
+		.active{
+			background-color: #cef3ffab;
+			color: #00abff !important;
+			border-radius: 10px;
+			padding: 8px 10px;
+		}
+		.cards{background-color:#fbe9e7a3;width: 210px;border-radius: 10px;margin-top: 110px;}
+		.p2{font-size:16px;text-align: center;padding-top: 10px;}
+		.cards .btn{background-color:#df674f;color: white;margin: 0px 47px 10px 47px;padding: 8px 35px;font-size: 14px;border-radius: 10px;}
+		.login{background-color: white;border: 1px solid #80808024;border-radius: 10px;padding: 5px 10px;color:#6c757d}
+		.login .icons{padding-left: 2px}
+		.login:hover{background-color: #00abff;color: white;}
+		.text-light{
+			border-radius: 10px;
+			background-color: #00abff;
+			padding: 13px;
+			position: absolute;
+			right: 30px;
+			top: 20px;
+		}
+		.dropdown-toggle{text-decoration: none;color: black;border: 2px solid #f8f9fa;padding: 10px 10px 15px 10px;border-radius:10px }
+		.ulist{display: flex;flex-direction: row;list-style: none;margin-top: 30px;margin-left: -30px;}
+		.anch{color: gray;text-decoration: none}
+		.anch:hover{color: #00abfc;border-bottom: 2px solid #00abfc;}
+		.td{padding: 15px}
+		.badge{font-size: 14px;padding: 8px 25px;margin: -1px}
+		.Pending{color: #FFA726;background-color: #FFF3E0;}
+		.Complete{color: #22c422;background-color: #90ee9042}
+		.Canceled{color: #E57373;background-color: #ffb6c147;}
+		.bt{font-size:12px;margin-top: 8px;padding: 10px 15px;border-radius: 10px;border:1px solid #80808024;}
+		.bt:first-child{background-color: white;border: none}
+		.bt:last-child{background-color: white;border: none}
+		.actived{background-color: #34bafc;border: none}
+		.bt:nth-child(3):hover{background-color: #34bafc;color: white;}
+		.bt:nth-child(4):hover{background-color: #34bafc;color: white;}
+		.bt:nth-child(5):hover{background-color: #34bafc;color: white;}
+		.bt:nth-child(6):hover{background-color: #34bafc;color: white;}
+		.bt:nth-child(7):hover{background-color: #34bafc;color: white;}
+		.bt:nth-child(8):hover{background-color: #34bafc;color: white;}
+		@media (max-width:2560px){.off{display: none}.log{display: none}}
+		@media (max-width:1280px){
+			.cards{width: 180px}
+			.p2{font-size: 12px}
+			.cards img{width: 180px !important}
+			.cards .btn{margin: 0px 40px 10px 40px;padding: 5px 25px;font-size: 12px}
+		}
+		@media (max-width:1025px){
+			.pic img{width: 75px}
+			.eshop{font-size: 16px;position: absolute;left: 115px;top: 60px!important}
+			.cards{margin-left: -20px;width: 150px}
+			.text-secondary{padding: 5px 0px;font-size: 12px}
+			.text-secondary:hover{background-color: #cef3ffab;
+			color: #00abff !important;border-radius: 10px;padding: 5px 0px;}
+			.icons{margin-right: 2px;font-size: 18px}
+			.cards img {width: 150px !important}
+			.cards .btn{padding: 5px 15px;}
+			.table{font-size: 10px!important}
+			td{padding: 12px 0!important}
+			.badge{font-size: 10px!important}
+			.mar{font-size: 12px}
+		}
+		@media (max-width:768px){
+			body{overflow-x: hidden;}
+			.pic img{width: 80px;}
+			.eshop{font-size: 14px;position: absolute;left: 110px!important}
+    		.text-secondary{font-size: 10px;}
+    		.icons{font-size: 14px;margin-right: 0px}
+    		tr:first-child img{width: 8px}
+    		.cards{margin-top: 40px}
+    		.login{margin-top: 8px!important;font-size: 12px}
+    		.col-sm-2{padding-left: 35px!important}
+    		td{font-size: 8px;}
+    		.cards{width: 120px;margin-left: 5px}
+    		.cards p{font-size: 10px!important}
+			.cards img {width: 120px !important}
+    		.cards .btn {margin: 0px 25px 10px 35px;padding: 5px 10px;font-size: 8px!important;border-radius: 5px!important}
+    		.col-sm-10 form{width: 170px;margin-left: 15px!important}
+    		.col-sm-10 input{width: 135px;padding: 0;padding-left: 10px}
+    		.col-sm-10 .bi-bell-fill{font-size: 12px;margin-right: 5px !important}
+    		.dropdown-toggle{padding: 5px 5px 10px 5px;}
+    		.dropdown-toggle img{width: 25px;}.car{font-size: 12px}
+    		.dropdown-menu{font-size: 12px!important}
+    		td img{width: 15px}.badge{font-size: 8px!important;padding: 5px 8px!important}
+    		.bn{padding: 8px 10px;border-radius: 5px;}.bn span{font-size: 12px!important}
+    		.bn i{font-size: 16px!important}
+    		.col-sm-10 .bg-light h2{font-size: 20px}
+    		.col-sm-10 .bg-light .text-muted{font-size: 10px!important}
+    		.foot p,button{font-size: 10px!important}
+    		.foot button{padding: 8px 12px!important}
+    		.foot button:first-child{margin-right: 5px!important}
+    		.foot button:last-child{margin-left: 5px!important}
+    		.foot button:nth-child(3){margin-left: 0px!important}
+    		.foot button:nth-child(4){margin-left: 0px!important}
+    		.foot button:nth-child(5){margin-left: 0px!important}
+    		.foot button:nth-child(6){margin-left: 0px!important}
+    		.foot button:nth-child(7){margin-left: 0px!important}
+    		.foot button:nth-child(8){margin-left: 0px!important}
+		}
+		@media (max-width:480px){
+			.col-sm-2{display: none!important}
+			.offcanvas-body .mt-5{margin-top: 20px!important}
+			.pic img{width: 100px;}
+			.eshop{font-size: 20px;position: absolute!important;left: 125px!important;top:70px!important;}
+			.text-secondary{font-size: 14px;margin-right: 240px;}
+			.cards{width: 170px;}
+    		.cards p{font-size: 14px!important}
+			.cards img {width: 170px !important}
+    		.cards .btn {margin: 5px 35px 15px 42px;padding: 5px 15px;font-size: 14px!important;border-radius: 10px!important}
+			.log{display: block;}
+			.off{display: block;font-size: 10px!important}
+    		.col-sm-10{width: 500px;padding: 0.5rem 0px 0px 15px!important}
+    		.col-sm-10 form{width: 145px;margin-left: 10px!important}
+    		.col-sm-10 input{width: 105px;padding: 0}
+    		.col-sm-10 ::placeholder{font-size: 10px;padding-left: 8px}
+    		.col-sm-10 .bg-light i{font-size: 10px!important}
+    		.col-sm-10 .bi-bell-fill{font-size: 10px;}
+    		.dropdown-toggle{padding: 1px 3px 5px 3px;}
+    		.dropdown-toggle img{width: 20px;margin-right: 5px!important}
+    		.car{font-size: 10px}
+    		.dropdown-menu{padding: 0px!important;font-size: 10px!important;margin: 0!important}
+    		.col-sm-10 .navbar .me-5{margin-right: 15px!important}
+    		.col-sm-10 .mt-2{padding-top: 20px!important}
+    		.bn{padding: 5px 8px;border-radius: 5px;}
+    		.bn span{font-size: 8px!important}
+    		.col-sm-10 .bg-light h2{font-size: 18px}
+    		.foot p,button{font-size: 8px !important}
+    		.foot button{padding: 3px 5px!important;border-radius: 5px;font-size: 8px!important}
+    		.badge{font-size: 6px!important}
+    		td{padding: 6px 0px!important;font-size: 6px}
+    		td img{width: 12px}
+    		tr:first-child img{width: 8px}
+    		.nb{font-size: 12px!important}
+    		.foot p{padding-bottom: 5px 0px 15px 0px!important}
+    		.log{display: block!important}
+		}
+		@media (max-width:320px){
+			.col-sm-10 form{width: 130px}
+			.col-10 input{width: 90px;}
+			.col-sm-10::placeholder{font-size: 8px;padding-left: 8px}
+    		.col-sm-10 .bg-light i{font-size: 8px!important}
+    		.col-sm-10 .bi-bell-fill{font-size: 10px;margin-right: 2px !important}
+    		.dropdown-toggle{padding: 0px 3px 3px 3px;border-radius: 5px}
+    		.col-sm-10 .navbar .me-5{margin-right: 10px!important}
+    		.dropdown-toggle img{width: 15px;margin-right: 5px!important}
+    		.car{font-size: 8px!important;margin-left: -10px}
+    		.col-sm-10 .mt-2 h2{font-size: 16px}
+    		.bn{padding: 1px 2px;border-radius: 2px}
+    		.bi-calendar-week-fill{margin-right: 5px!important}
+    		.bi-chevron-down{padding-left: 5px!important}
+    		.foot p,button{font-size: 6px!important}
+    		.foot button{padding: 2px 5px;border-radius: 5px}.nb{font-size: 10px!important}
+    		td{font-size: 4px}.badge{font-size: 4px!important;padding: 3px!important}
+    		td img{width: 8px}
+    		tr:first-child img{width: 5px}
+    		td{padding: 4px 0px!important}
+    		.foot p,button{font-size: 6px!important}
+    		.foot button{padding: 1.5px 3px!important}
+    		.foot button:first-child{margin-right: 3px!important}
+    		.foot button:last-child{margin-left: 3px!important}
+		}
